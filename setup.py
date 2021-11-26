@@ -48,7 +48,7 @@ setup(
     platforms=['OS Independent'],
     classifiers=CLASSIFIERS,
     install_requires=[
-        'Django>=1.8,<3.3',
+        'Django>=1.8',
     ],
     packages=find_packages(exclude=['example', 'docs']),
     include_package_data=True,
